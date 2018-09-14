@@ -1,0 +1,261 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 203px;
+	left: 60px;
+}
+
+#triangleleft {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+	position: absolute;
+	top: 153px;
+	left: 170px;
+}
+
+#triangleright {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid white;
+	border-left: 100px solid transparent;
+	position: absolute;
+	top: 354px;
+	left: 470px;
+}
+
+#triangletop {
+	width: 0;
+	height: 0;
+	border-bottom: 36px solid black;
+	border-left: 100px solid transparent;
+	position: absolute;
+	top: 167px;
+	left: 301px;
+}
+
+#trianglebook {
+	width: 0;
+	height: 0;
+	border-left: 75px solid black;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 203px;
+	left: 60px;}
+
+#tv {
+  position: absolute;
+  width: 43px;
+  height: 27px;
+  margin: 20px 0;
+  top: 28%;
+  bottom: 10%;
+  right: -5%;
+  left: 56%;
+  background: white;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+#tv:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+
+
+#square {
+	width: 150px;
+	height: 150px;
+	background: red;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#rectangle {
+	width: 300px;
+	height: 150px;
+	background: lightgray;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+}
+
+#rectangleup {
+	width: 170px;
+	height: 70px;
+	background: lightgray;
+	top: 167px;
+	left: 400px;
+	position: absolute;
+
+}
+
+#shadow1 {
+	width: 336px;
+	height: 173px;
+	background: linear-gradient(to right, #a7aaaf 0%, #000000 100%);
+	top: 350px;
+	top: 203px;
+	left: 234px;
+	position: absolute;
+
+}
+
+#centerbox {
+	width: 300px;
+	height: 100px;
+	background: gray;
+	top: 238px;
+	left: 270px;
+	position: absolute;
+}
+
+
+#viewfinder {
+	width: 60px;
+	height: 30px;
+	background: black; 
+	top: 175px;
+	left: 495px;
+	position: absolute;
+
+}
+
+#circle {
+	width: 120px;
+	height: 120px;
+	background: black;
+	border-radius: 150px;
+	top: 220px;
+	left: 419px;
+	position: absolute;
+}
+
+#circle2 {
+	width: 120px;
+	height: 120px;
+	background: white;
+	border-radius: 150px;
+	top: 220px;
+	left: 430px;
+	position: absolute;
+}
+
+#circle3 {
+	width: 120px;
+	height: 120px;
+	background: gray;
+	border-radius: 150px;
+	top: 220px;
+	left: 435px;
+	position: absolute;
+}
+
+#circle4 {
+	width: 105px;
+	height: 105px;
+	background: black;
+	border-radius: 150px;
+	top: 228px;
+	left: 444px;
+	position: absolute;
+}
+
+#circle5 {
+	width: 24px;
+	height: 24px;
+	background: black;
+	border-radius: 150px;
+	top: 173px;
+	left: 412px;
+	position: absolute;
+}
+
+#parallelogram {
+	width: 518px;
+	height: 53px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: green;
+	position: absolute;
+	top: 376px;
+	left: 147px
+}
+	
+
+#clip {
+	width: 150px;
+	height: 150px;
+	background: green;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+
+	}
+
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
