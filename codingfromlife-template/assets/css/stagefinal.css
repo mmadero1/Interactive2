@@ -506,7 +506,7 @@ background-color: transparent;
     width: 450px;
     height: 67px;
     border: black solid 20px;
-    clip-path: polygon(0% 0%, 100% 0%,100% 100%, 50% 0%);
+    clip-path: inset(-1% 0% 47% 49%);
     -webkit-border-radius: 100px / 50px;
     border-radius: 100px / 50px;
     top: 43px;
@@ -549,9 +549,9 @@ background-color: transparent;
 
 #Kdownleft
 {width: 20px;
-    height: 56px;
+    height: 98px;
     position: absolute;
-    top: 74px;
+    top: 52px;
     left: 217px;
     background-color: black;
 
@@ -566,6 +566,21 @@ background-color: transparent;
     background-color: black;
 }
 
+#Kcurve3{
+    width: 427px;
+    height: 85px;
+    border: black solid 20px;
+    clip-path: inset(-1% 0% 47% 49%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: -52px;
+    left: -207px;
+    position: absolute;
+    transform: rotate(180deg);
+    -webkit-transform: scaley(-1);
+    transform: scaley(-1);
+}
+
 .L {width:250px;
     height:150px;
     position: relative;
@@ -578,6 +593,21 @@ background-color: transparent;
     top: 0px;
     left: 0px;
     background-color: black;
+}
+
+#Lcurve{
+    width: 427px;
+    height: 85px;
+    border: black solid 20px;
+    clip-path: inset(-1% 0% 47% 49%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 25px;
+    left: -207px;
+    position: absolute;
+    transform: rotate(180deg);
+    -webkit-transform: scaley(-1);
+    transform: scaley(-1);
 }
 
 #Ldown
@@ -1018,7 +1048,7 @@ background-color: transparent;
 {width: 130px;
     height: 20px;
     position: absolute;
-    top: 112px;
+    top: 115px;
     left: 0px;
     background-color: black;
     transform: rotate(195deg);
@@ -1050,21 +1080,12 @@ background-color: transparent;
 
 #Wdown
 {width: 20px;
-    height: 112px;
+    height: 116px;
     position: absolute;
     top: 20px;
     left: 13px;
     background-color: black;
 
-}
-
-#Wbottom
-{width: 50px;
-    height: 20px;
-    position: absolute;
-    top: 130px;
-    left: 0px;
-    background-color: black;
 }
 
 #Wtopleft
@@ -1078,21 +1099,12 @@ background-color: transparent;
 
 #Wdownleft
 {width: 20px;
-    height: 112px;
+    height: 115px;
     position: absolute;
     top: 20px;
     left: 217px;
     background-color: black;
 
-}
-
-#Wbottomleft
-{width: 50px;
-    height: 20px;
-    position: absolute;
-    top: 130px;
-    left: 200px;
-    background-color: black;
 }
 
 #Winsideleft
