@@ -1,5 +1,5 @@
 body {
-	background: red
+	background: linear-gradient(#ff0000, #fffa00); 
 }
 
 .stage {
