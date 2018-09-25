@@ -1,0 +1,1323 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.letter 
+{float:left;
+margin:500px;
+background-color: transparent;
+}
+
+.A {width:250px;
+    height:150px;
+    position: relative;}
+
+#Acurve {
+    width: 260px;
+    height: 179px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 40px;
+    left: -24px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+#Abottomleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    background-color: black;
+}
+
+#Abottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Acrossbarmiddle
+{width: 190px;
+    height: 20px;
+    position: absolute;
+    top: 39px;
+    left: 33px;
+    background-color: black;
+}
+
+
+.B {width:250px;
+	height:150px;
+	position: relative;}
+
+#Btop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Bdown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Bbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Bcurve1 {
+	width: 402px;
+    height: 19px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: -192px;
+    position: absolute;
+}
+
+#Bcurve2 {
+	width: 402px;
+    height: 71px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 39px;
+    left: -192px;
+    position: absolute;
+}
+
+
+.C {width:250px;
+	height:150px;
+	position: relative;
+
+}
+
+#Ccurve2 {
+	width: 460px;
+    height: 110px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+#Cseriftop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 215px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#Cserifbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 115px;
+    left: 215px;
+    background-color: black;
+    transform: rotate(90deg);
+
+}
+
+.D {width:250px;
+	height:150px;
+	position: relative;
+
+}
+
+#Dcurve2 {
+	width: 402px;
+    height: 110px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: -192px;
+    position: absolute;
+}
+
+#Dtop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Ddown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Dbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+.E {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Etop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Edown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Ebottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Ecrossbartop
+{width: 217px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 33px;
+    background-color: black;
+}
+
+#Ecrossbarmiddle
+{width: 217px;
+    height: 20px;
+    position: absolute;
+    top: 39px;
+    left: 33px;
+    background-color: black;
+}
+
+#Ecrossbarbottom
+{width: 217px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 33px;
+    background-color: black;
+}
+
+.F {width:250px;
+    height:150px;
+    position: relative;
+
+
+}#Ftop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Fdown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Fbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Fcrossbartop
+{width: 217px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 33px;
+    background-color: black;
+}
+
+#Fcrossbarmiddle
+{width: 217px;
+    height: 20px;
+    position: absolute;
+    top: 39px;
+    left: 33px;
+    background-color: black;
+}
+
+.G {width:250px;
+    height:150px;
+    position: relative;
+
+}
+
+#Gcurve2 {
+    width: 460px;
+    height: 110px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+#Gseriftop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 215px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#Gserifbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 115px;
+    left: 215px;
+    background-color: black;
+    transform: rotate(90deg);
+
+}
+
+#Gserifside
+{width: 50px;
+    width: 173px;
+    height: 20px;
+    position: absolute;
+    top: 80px;
+    left: 77px;
+    background-color: black;
+
+}
+
+.H {width:250px;
+    height:150px;
+    position: relative;
+
+}
+
+#Htop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Hdown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Hbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Hcrossbarmiddle
+{width: 184px;
+    height: 20px;
+    position: absolute;
+    top: 39px;
+    left: 33px;
+    background-color: black;
+}
+#Htopleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: black;
+}
+
+#Hdownleft
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 217px;
+    background-color: black;
+
+}
+
+#Hbottomleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    background-color: black;
+}
+
+.I {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Itop
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Idown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 115px;
+    background-color: black;
+
+}
+
+#Ibottom
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+.J {width:250px;
+    height:150px;
+    position: relative;
+}
+#Jtopleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: black;
+}
+
+#Jdownleft
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 217px;
+    background-color: black;
+
+}
+
+#Jbottomleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    background-color: black;
+}
+
+#Jcurve3{
+    width: 450px;
+    height: 67px;
+    border: black solid 20px;
+    clip-path: polygon(0% 0%, 100% 0%,100% 100%, 50% 0%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 43px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.K {width:250px;
+    height:150px;
+    position: relative;
+}
+#Ktop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Kdown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Kbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Kdownleft
+{width: 20px;
+    height: 56px;
+    position: absolute;
+    top: 74px;
+    left: 217px;
+    background-color: black;
+
+}
+
+#Kbottomleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    background-color: black;
+}
+
+.L {width:250px;
+    height:150px;
+    position: relative;
+
+ }
+#Ltop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Ldown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Lbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+.M {width:250px;
+    height:150px;
+    position: relative;
+}
+#Mtop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Mdown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Mbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Mtopleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: black;
+}
+
+#Mdownleft
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 217px;
+    background-color: black;
+
+}
+
+#Mbottomleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    background-color: black;
+}
+
+#Minsideleft
+{width: 104px;
+    height: 20px;
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    background-color: black;
+    transform: rotate(200deg);
+}
+#Minsideright
+{width: 107px;
+    height: 20px;
+    position: absolute;
+    top: 28px;
+    left: 119px;
+    background-color: black;
+    transform: rotate(-200deg);
+}
+.N {width:250px;
+    height:150px;
+    position: relative;
+}
+#Ntop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Ndown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Nbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Ninsideleft
+{width: 236px;
+    height: 20px;
+    position: absolute;
+    top: 72px;
+    left: 12px;
+    background-color: black;
+    transform: rotate(-330deg);
+}
+
+#Ntopleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: black;
+}
+
+#Ndownleft
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 217px;
+    background-color: black;
+}
+
+.O {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#oval
+{width: 210px;
+    height: 110px;
+    border: black solid 20px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.P {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Ptop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Pdown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Pbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Pcurve1 {
+    width: 402px;
+    height: 19px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: -192px;
+    position: absolute;
+}
+
+.Q {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Qoval
+{width: 210px;
+    height: 110px;
+    border: black solid 20px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+#Qleft
+{width: 88px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 162px;
+    background-color: black;
+}
+
+.R {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Rtop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Rdown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Rbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Rcurve1 {
+    width: 402px;
+    height: 19px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: -192px;
+    position: absolute;
+}
+
+#Rdownleft
+{width: 20px;
+    height: 72px;
+    position: absolute;
+    top: 59px;
+    left: 178px;
+    background-color: black;
+
+}
+
+#Rbottomleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 163px;
+    background-color: black;
+}
+
+.S {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Scurve1 {
+    width: 459px;
+    height: 19px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: 1px;
+    position: absolute;
+    transform: rotate(180deg);
+
+}
+#Scurve2 {
+    width: 402px;
+    height: 71px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 39px;
+    left: -192px;
+    position: absolute;
+}
+
+.T {width:250px;
+    height:150px;
+    position: relative;
+}
+#Ttop
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Tdown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 115px;
+    background-color: black;
+
+}
+
+#Tserif
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    background-color: black;
+}
+
+#Tseriftop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 215px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#Tseriftopleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+.U {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Ucurve2 {
+    width: 258px;
+    height: 210px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: -124px;
+    left: -24px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.V {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Vdownleft
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+
+}
+
+#Vdownright
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    background-color: black;
+
+}
+
+#Vinsideleft
+{width: 130px;
+    height: 20px;
+    position: absolute;
+    top: 112px;
+    left: 0px;
+    background-color: black;
+    transform: rotate(195deg);
+}
+
+#Vinsideright
+{width: 129px;
+    height: 20px;
+    position: absolute;
+    top: 112px;
+    left: 121px;
+    background-color: black;
+    transform: rotate(-195deg);
+}
+
+.W {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Wtop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#Wdown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: black;
+
+}
+
+#Wbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Wtopleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: black;
+}
+
+#Wdownleft
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 217px;
+    background-color: black;
+
+}
+
+#Wbottomleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    background-color: black;
+}
+
+#Winsideleft
+{   width: 104px;
+    height: 20px;
+    position: absolute;
+    top: 98px;
+    left: 118px;
+    background-color: black;
+    transform: rotate(200deg);
+}
+#Winsideright
+{width: 107px;
+    height: 20px;
+    position: absolute;
+    top: 99px;
+    left: 25px;
+    background-color: black;
+    transform: rotate(-200deg);
+}
+
+.X {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Xtop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+
+}
+
+#Xbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Xtopleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: black;
+
+}
+
+#Xbottomleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    background-color: black;
+}
+
+#Xinsideleft
+{   width: 251px;
+    height: 20px;
+    position: absolute;
+    top: 67px;
+    left: 0px;
+    background-color: black;
+    transform: rotate(211deg);
+}
+#Xinsideright
+{width: 251px;
+    height: 20px;
+    position: absolute;
+    top: 66px;
+    left: -3px;
+    background-color: black;
+    transform: rotate(-211deg);
+
+}
+
+.Y {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Ytop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+
+}
+
+#Ytopleft
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: black;
+
+}
+
+#Yinsideleft
+{   width: 108px;
+    height: 20px;
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    background-color: black;
+    transform: rotate(211deg);
+}
+#Yinsideright
+{width: 105px;
+    height: 20px;
+    position: absolute;
+    top: 28px;
+    left: 122px;
+    background-color: black;
+    transform: rotate(-211deg);
+
+}
+
+#Ydown
+{width: 20px;
+    height: 89px;
+    position: absolute;
+    top: 57px;
+    left: 115px;
+    background-color: black;
+
+}
+
+#Yserif
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    background-color: black;
+}
+
+.Z {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#Zinside
+{width: 273px;
+    height: 20px;
+    position: absolute;
+    top: 65px;
+    left: -12px;
+    background-color: black;
+    transform: rotate(332deg);
+}
+
+#Ztop
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+
+}
+
+#Zbottom
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+
+}
+
+#Zseriftop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#Zserifbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 115px;
+    left: 215px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
