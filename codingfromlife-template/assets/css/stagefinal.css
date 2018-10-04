@@ -2,20 +2,75 @@ body {
 	background: linear-gradient(#ff0000, #fffa00); 
 }
 
+.quote-wrapper, .stage-wrapper {
+    width: 100%;
+}
+
+.quote {
+    width: 960px;
+    margin: 10% auto;
+    transform: scale(1.);
+}
+
 .stage {
-	width: 900px;
-	height: 556px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
-    background-color: red;
+    background-color: transparent;
 }
 
-.letter 
+.letter
 {float:left;
-margin:500px;
-background-color: transparent;
+height: 200px
+width:200px;
+margin:20px;
+background-color: none;
+position:relative;
+transition: transform 200ms ease-out;
+transform-origin: 0 0;
 }
+
+
+.alphabet .letter:hover {
+    transform: scaleX(2.16);
+    z-index: 100;
+}
+
+.alphabet .letter:hover ~ .letter{
+    transform: translateX(290px);
+}
+
+.start {width:250px;
+    height:150px;
+    position: relative;}
+
+.start2 {width:250px;
+    height:150px;
+    position: relative;}
+
+.start3 {width:250px;
+    height:150px;
+    position: relative;}
+
+.start4 {width:250px;
+    height:150px;
+    position: relative;}
+
+.start5 {width:250px;
+    height:150px;
+    position: relative;}
+
+.start6 {width:250px;
+    height:150px;
+    position: relative;}
+
+.start7 {width:250px;
+    height:150px;
+    position: relative;}
+
+.start8{width:250px;
+    height:150px;
+    position: relative;}
 
 .A {width:250px;
     height:150px;
@@ -323,7 +378,7 @@ background-color: transparent;
 }
 
 #Gcurve2 {
-    width: 460px;
+   width: 416px;
     height: 110px;
     border: black solid 20px;
     clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
@@ -333,6 +388,15 @@ background-color: transparent;
     left: 0px;
     position: absolute;
     transform: rotate(180deg);
+}
+
+#Gtop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 183px;
+    background-color: black;
 }
 
 #Gseriftop
@@ -350,7 +414,7 @@ background-color: transparent;
     height: 20px;
     position: absolute;
     top: 115px;
-    left: 215px;
+    left: 193px;
     background-color: black;
     transform: rotate(90deg);
 
@@ -468,6 +532,46 @@ background-color: transparent;
     top: 130px;
     left: 0px;
     background-color: black;
+}
+
+#Iserif1
+{   width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 221px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#Iserif2
+{   width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: -9px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#Iserif3
+{   width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 117px;
+    left: -9px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#Iserif4
+{   width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 117px;
+    left: 221px;
+    background-color: black;
+    transform: rotate(90deg);
 }
 
 .J {width:250px;
@@ -596,7 +700,7 @@ background-color: transparent;
 }
 
 #Lcurve{
-    width: 427px;
+    width: 417px;
     height: 85px;
     border: black solid 20px;
     clip-path: inset(-1% 0% 47% 49%);
@@ -634,7 +738,7 @@ background-color: transparent;
     position: relative;
 }
 #Mtop
-{width: 50px;
+{width: 34px;
     height: 20px;
     position: absolute;
     top: 0px;
@@ -662,11 +766,11 @@ background-color: transparent;
 }
 
 #Mtopleft
-{width: 50px;
+{width: 33px;
     height: 20px;
     position: absolute;
     top: 0px;
-    left: 200px;
+    left: 217px;
     background-color: black;
 }
 
@@ -693,16 +797,16 @@ background-color: transparent;
 {width: 104px;
     height: 20px;
     position: absolute;
-    top: 28px;
+    top: 17px;
     left: 28px;
     background-color: black;
     transform: rotate(200deg);
 }
 #Minsideright
-{width: 107px;
+{width: 104px;
     height: 20px;
     position: absolute;
-    top: 28px;
+    top: 17px;
     left: 119px;
     background-color: black;
     transform: rotate(-200deg);
@@ -750,11 +854,11 @@ background-color: transparent;
 }
 
 #Ntopleft
-{width: 50px;
+{width: 33px;
     height: 20px;
     position: absolute;
     top: 0px;
-    left: 200px;
+    left: 217px;
     background-color: black;
 }
 
@@ -902,9 +1006,9 @@ background-color: transparent;
 
 #Rdownleft
 {width: 20px;
-    height: 72px;
+    height: 91px;
     position: absolute;
-    top: 59px;
+    top: 57px;
     left: 178px;
     background-color: black;
 
@@ -925,7 +1029,7 @@ background-color: transparent;
 }
 
 #Scurve1 {
-    width: 459px;
+    width: 257px;
     height: 19px;
     border: black solid 20px;
     clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
@@ -934,19 +1038,56 @@ background-color: transparent;
     top: 0px;
     left: 1px;
     position: absolute;
-    transform: rotate(180deg);
+    transform: rotate(180deg);}
+
+#Stop
+{width: 122px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 128px;
+    background-color: black;
 
 }
 #Scurve2 {
-    width: 402px;
+    width: 365px;
     height: 71px;
     border: black solid 20px;
     clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
     -webkit-border-radius: 100px / 50px;
     border-radius: 100px / 50px;
     top: 39px;
-    left: -192px;
+    left: -155px;
     position: absolute;
+}
+
+#Sseriftop
+{width: 32px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 224px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#Sbottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#Sserifbottom
+{width: 32px;
+    height: 20px;
+    position: absolute;
+    top: 118px;
+    left: -6px;
+    background-color: black;
+    transform: rotate(90deg);
 }
 
 .T {width:250px;
@@ -973,11 +1114,11 @@ background-color: transparent;
 }
 
 #Tserif
-{width: 50px;
+{width: 73px;
     height: 20px;
     position: absolute;
     top: 130px;
-    left: 100px;
+    left: 89px;
     background-color: black;
 }
 
@@ -1008,15 +1149,34 @@ background-color: transparent;
 
 #Ucurve2 {
     width: 258px;
-    height: 210px;
+    height: 179px;
     border: black solid 20px;
     clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
     -webkit-border-radius: 100px / 50px;
     border-radius: 100px / 50px;
-    top: -124px;
+    top: -109px;
     left: -24px;
     position: absolute;
     transform: rotate(90deg);
+}
+
+#Userif1
+{width: 34px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 216px;
+    background-color: black;
+}
+
+
+#Userif2
+{width: 34px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
 }
 
 .V {width:250px;
@@ -1029,7 +1189,7 @@ background-color: transparent;
     height: 112px;
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 15px;
     background-color: black;
 
 }
@@ -1039,30 +1199,50 @@ background-color: transparent;
     height: 112px;
     position: absolute;
     top: 0px;
-    left: 230px;
+    left: 215px;
     background-color: black;
 
 }
 
 #Vinsideleft
-{width: 130px;
+{width: 116px;
     height: 20px;
     position: absolute;
     top: 115px;
-    left: 0px;
+    left: 13px;
     background-color: black;
     transform: rotate(195deg);
 }
 
 #Vinsideright
-{width: 129px;
+{width: 117px;
     height: 20px;
     position: absolute;
-    top: 112px;
-    left: 121px;
+    top: 115px;
+    left: 120px;
     background-color: black;
     transform: rotate(-195deg);
 }
+
+#Vserif1
+{width: 34px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 216px;
+    background-color: black;
+}
+
+#Vserif2
+{width: 34px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+
 
 .W {width:250px;
     height:150px;
@@ -1111,19 +1291,37 @@ background-color: transparent;
 {   width: 104px;
     height: 20px;
     position: absolute;
-    top: 98px;
+    top: 113px;
     left: 118px;
     background-color: black;
     transform: rotate(200deg);
 }
 #Winsideright
-{width: 107px;
+{width: 103px;
     height: 20px;
     position: absolute;
-    top: 99px;
-    left: 25px;
+    top: 112px;
+    left: 27px;
     background-color: black;
     transform: rotate(-200deg);
+}
+
+#Wbottomserif
+{width: 34px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 216px;
+    background-color: black;
+}
+
+#Wbottomserif2
+{width: 34px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
 }
 
 .X {width:250px;
@@ -1245,11 +1443,11 @@ background-color: transparent;
 }
 
 #Yserif
-{width: 50px;
+{width: 73px;
     height: 20px;
     position: absolute;
     top: 130px;
-    left: 100px;
+    left: 90px;
     background-color: black;
 }
 
@@ -1306,8 +1504,526 @@ background-color: transparent;
     left: 215px;
     background-color: black;
     transform: rotate(90deg);
+
 }
-/* animations */
+
+.blank {width:250px;
+    height:150px;
+    position: relative;
+}
+
+.blank2 {width:250px;
+    height:150px;
+    position: relative;
+}
+.zero {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#zerocurve {
+  width: 210px;
+    height: 110px;
+    border: black solid 20px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: 0px;
+    position: absolute;}
+
+
+
+.one {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#onetop
+{width: 135px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#onedown
+{width: 20px;
+    height: 112px;
+    position: absolute;
+    top: 20px;
+    left: 115px;
+    background-color: black;
+
+}
+
+#oneserif
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    background-color: black;
+}
+
+#oneseriftop
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 37px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+
+.two {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#twocurve1 {
+  width: 257px;
+    height: 19px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: -47px;
+    position: absolute;
+
+}
+
+#twotop
+{    width: 122px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+
+}
+#twocurve2 {
+   width: 365px;
+    height: 71px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 39px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(-180deg);
+}
+
+#twoseriftop
+{width: 32px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: -5px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#twobottom
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    background-color: black;
+}
+
+#twoserifbottom
+{width: 32px;
+    height: 20px;
+    position: absolute;
+    top: 118px;
+    left: 224px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+.three {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#threecurve1 {
+  width: 457px;
+    height: 19px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: -248px;
+    position: absolute;
+
+}
+
+#threebottom {
+  width: 458px;
+    height: 70px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 39px;
+    left: -248px;
+    position: absolute;
+
+}
+
+.four {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#fourdown
+{width: 20px;
+    height: 149px;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    background-color: black;
+}
+
+#fourcrossbar
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    background-color: black;
+}
+
+#fourleft
+{width: 20px;
+    height: 62px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;}
+
+.five {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#fivetop
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#fiveright
+{ width: 20px;
+    height: 59px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+
+}
+
+#fivebottom {
+    width: 458px;
+    height: 70px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 39px;
+    left: -249px;
+    position: absolute;
+    transform: rotate(0deg);
+}
+
+.six {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#sixtop
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;}
+
+#sixdown
+{width: 20px;
+    height: 149px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#sixbottom {
+    width: 458px;
+    height: 70px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 39px;
+    left: -248px;
+    position: absolute;
+
+}
+
+.seven{width:250px;
+    height:150px;
+    position: relative;
+}
+
+#seventop
+{width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;}
+
+#seveninside
+{width: 273px;
+    height: 20px;
+    position: absolute;
+    top: 65px;
+    left: -12px;
+    background-color: black;
+    transform: rotate(332deg);
+}
+
+.eight{width:250px;
+    height:150px;
+    position: relative;
+}
+
+#eighttop {
+  width: 210px;
+    height: 19px;
+    border: black solid 20px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+
+}
+#eightbottom {
+    width: 210px;
+    height: 70px;
+    border: black solid 20px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 39px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.nine{width:250px;
+    height:150px;
+    position: relative;
+}
+
+#ninetop {
+  width: 457px;
+    height: 19px;
+    border: black solid 20px;
+    clip-path: polygon(50% 0%, 100% 0%,100% 100%, 50% 100%);
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transform: rotate(180deg);
+
+
+}
+
+#ninedown
+{width: 20px;
+    height: 149px;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    background-color: black;
+}
+
+.question {width:250px;
+    height:150px;
+    position: relative;
+}
+
+#qtop
+{width: 125px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    background-color: black;}
+
+#qside
+{width: 20px;
+    height: 59px;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    background-color: black;
+}
+
+#qcross
+{width: 125px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    left: 125px;
+    background-color: black;}
+
+#qdown
+{width: 20px;
+    height: 79px;
+    position: absolute;
+    top: 40px;
+    left: 125px;
+    background-color: black;
+}
+
+#qdot
+{width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 125px;
+    background-color: black;
+
+}
+
+.exclamation {width:250px;
+    height:150px;
+    position: relative;
+
+}
+
+#xdown
+{width: 20px;
+    height: 121px;
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    background-color: black;
+}
+
+#xdot
+{width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 125px;
+    background-color: black;
+
+}
+
+.quotation {width:250px;
+    height:150px;
+    position: relative;
+
+}
+
+#quot1
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#quot2
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#quot3
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 215px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+#quot4
+{width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 184px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+
+.star {width:250px;
+    height:150px;
+    position: relative;
+
+}
+
+#stardown
+{width: 20px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 118px;
+    background-color: black;
+}
+
+#star1
+{width: 20px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 118px;
+    background-color: black;
+    transform: rotate(53deg);
+
+}
+
+#star2
+{width: 20px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 118px;
+    background-color: black;
+    transform: rotate(-53deg);
+
+}
+
+
+
+
+
+
+/* animations *
 
 /*
 #clip:hover {
